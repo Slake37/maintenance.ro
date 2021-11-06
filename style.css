@@ -140,3 +140,74 @@ header h1 .red{
     text-align: center;
     margin-bottom:2rem;
 }
+
+.about{
+    margin-top:5rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding:4rem 0.5rem;
+    text-align: center;
+}
+
+.about .title .profile{
+    position: absolute;
+    left:50%;
+    transform:translateX(-50%);
+    top:-50px;
+    width:7rem;
+    height:7rem;
+    background-image: url(./img/Profil\ 1.PNG);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    border:3px solid #fff;
+}
+
+.about .title{
+    margin-bottom:2rem;
+}
+
+.about .title h3{
+    font-size: 1.8rem;
+}
+
+.about .title p{
+    font-size: 1.2rem;
+}
+
+.services{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: linear-gradient(90deg, rgb(220,40,30,1), rgb(240,0,0,0.8));
+    color:#fff;
+}
+
+.services .service-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin:1rem;
+    line-height: 1.5;
+    
+}
+
+.services .service-card i{
+    font-size:2rem;
+    margin-bottom: 0.5rem;
+}
+
+.jobs{
+    column-count: 1;
+    padding: 1.5rem 0.6rem;
+}
+
+.jobs img{
+    max-width:100%;
+    display: block;
+    margin:0.4rem auto;
+}
