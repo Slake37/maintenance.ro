@@ -314,21 +314,19 @@ textarea{
     margin:1rem;
 }
 
-.contact .contact-footer :nth-child(1){
+#privacy{
     text-decoration: underline;
 }
 
-.contact .contact-footer i{
-    text-decoration: none  !important;
-}
+
 
 .modal{
     background-color: rgba(0,0,0,0.9);
     width:100vw;
     height:100vh;
     position: absolute;
-    top: -200px;
-    left:0px;
+    top: 0;
+    left:0;
     z-index: 2;
     display: none;
     
