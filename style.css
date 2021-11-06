@@ -248,6 +248,7 @@ header h1 .red{
     display: grid;
     grid-template-columns: 1fr;
     justify-content: flex-start;
+    position: relative;
 }
 
 .my-form{
@@ -316,6 +317,7 @@ textarea{
 
 #privacy{
     text-decoration: underline;
+    font-size: 0.8rem;
 }
 
 
@@ -325,11 +327,11 @@ textarea{
     width:100vw;
     height:100vh;
     position: absolute;
-    top: 0;
-    left:0;
     z-index: 2;
     display: none;
-    
+    margin:0;
+    top:0;
+    left:0;
 }
 
 #privacy{
@@ -352,20 +354,17 @@ textarea{
 }
 
 
-.modal .modal-body{
+.modal .modal-text{
+    margin:2rem auto;
     background-color: #fff;
     color:#000;
-    margin:1rem;
-    border-radius: 15px;
-    padding: 0.5rem;
-    max-height: 80vh;
+    padding: 1rem;
+    width:80vw;
+    height: 80vh;
     overflow: scroll;
     font-size: 0.5rem;
 }
 
-.modal .modal-text p{
-    text-decoration: none !important;
-}
 
 
 
