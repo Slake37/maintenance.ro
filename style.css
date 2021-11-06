@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F2EAEA;
+}
+
+.container{
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url('./img/pexels-ono-kosuki-5974053.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.overlay{
+    width:100vw;
+    height: 100vh;
+    background-color: rgba(240,240,240, 0.5);
+    position: absolute;
+    top: 0;
+    left:0;
+}
+
+nav{
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(220,40,30);
+    background: linear-gradient(90deg, rgba(220,40,30,1) 0%, rgba(240,0,0,0.8) 50%);
+    margin-top:1rem;
+}
+
+nav img{
+    width:4rem;
+    margin:0.3rem 1rem;
+}
+
+nav .ham-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:0.3rem 1rem;
+}
+
+nav .ham-menu span{
+    background-color: #fff;
+    width:1.8rem;
+    height:0.1rem;
+}
+
+header h1{
+    z-index: 2;
+    text-align: center;
+    margin: auto;
+    font-size: 2.3rem;
+}
+
+header h1 .red{
+    color:#FF0000;
+}
+
+.quote{
+    display: inline;
+    z-index: 2;
+    color:#fb0606;
+    background: transparent;
+    border:1px solid #fb0606;
+    padding:0.4rem 1.5rem;
+    text-decoration: none;
+    border-radius: 15px;
+    text-align: center;
+    margin: auto;
+}
+
+.header-footer{
+    z-index: 2;
+    background: rgb(220,40,30);
+    background: linear-gradient(90deg, rgba(220,40,30,1) 0%, rgba(240,0,0,0.8) 100%);
+    color:#d5d5d5;
+    padding:0.3rem;
+    text-align: center;
+}
