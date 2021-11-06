@@ -327,10 +327,11 @@ textarea{
     width:100vw;
     height:100vh;
     position: absolute;
-    top: -50px;
+    top: -200px;
     left:0px;
     z-index: 2;
     display: none;
+    
 }
 
 #privacy{
@@ -362,6 +363,10 @@ textarea{
     max-height: 80vh;
     overflow: scroll;
     font-size: 0.5rem;
+}
+
+.modal .modal-text p{
+    text-decoration: none !important;
 }
 
 
