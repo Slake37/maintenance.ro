@@ -211,3 +211,160 @@ header h1 .red{
     display: block;
     margin:0.4rem auto;
 }
+
+.reviews{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding:1rem 0.5rem;
+    margin:1rem auto;
+    text-align: center;
+}
+
+.reviews h2{
+    margin:1rem auto;
+}
+
+.reviews .review-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+
+.reviews .review-card blockquote{
+    font-style: italic;
+    text-align: right;
+    font-size: 0.7rem;
+}
+
+
+.contact{
+    background: linear-gradient(90deg, rgb(220,40,30,1), rgb(240,0,0,0.8));
+    color:#fff;
+    padding:1rem 0.5rem;
+    margin:1rem auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: flex-start;
+}
+
+.my-form{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:0.5rem;
+}
+
+.input-area{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+input{
+    font-family: 'Poppins', sans-serif;
+    display:block;
+    margin:0.5rem 0;
+    border:none;
+    border-radius: 15px;
+    padding:0.5rem;
+    outline: none;
+}
+
+select{
+    font-family: 'Poppins', sans-serif;
+    margin:0.5rem 0;
+    border:none;
+    border-radius: 15px;
+    padding:0.5rem;
+    outline: none;
+}
+
+textarea{
+    font-family: 'Poppins', sans-serif;
+    padding: 0.5rem;
+    border-radius: 15px;
+}
+
+.submitButton{
+    color:#fff;
+    background: transparent;
+    border:1px solid #fff;
+    padding:0.4rem 1.5rem;
+    text-decoration: none;
+    border-radius: 15px;
+    text-align: center;
+    margin: 1rem auto;
+}
+
+.contact .contact-footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:0.8rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.contact .contact-footer p{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin:1rem;
+}
+
+.contact .contact-footer :nth-child(1){
+    text-decoration: underline;
+}
+
+.contact .contact-footer i{
+    text-decoration: none  !important;
+}
+
+.modal{
+    background-color: rgba(0,0,0,0.9);
+    width:100vw;
+    height:100vh;
+    position: absolute;
+    top: -50px;
+    left:0px;
+    z-index: 2;
+    display: none;
+}
+
+#privacy{
+    position: relative;
+}
+
+.modal-header{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #fb0606;
+    color:#fff;
+    width:100%;
+    height:1.5rem;
+}
+
+.modal-header i{
+    font-size: 1rem;
+    margin:0.2rem 1rem;
+    cursor: pointer;
+}
+
+
+.modal .modal-body{
+    background-color: #fff;
+    color:#000;
+    margin:1rem;
+    border-radius: 15px;
+    padding: 0.5rem;
+    max-height: 80vh;
+    overflow: scroll;
+    font-size: 0.5rem;
+}
+
+
+
+
+
