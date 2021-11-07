@@ -395,6 +395,15 @@ footer{
     margin-bottom:1rem;
 }
 
+@media screen and (min-width: 425px ){
+    .jobs{
+        column-count: 2;
+    }
+
+    .jobs img{
+        width:100%;
+    }
+}
 
 
 
