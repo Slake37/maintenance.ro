@@ -4,12 +4,6 @@ let modal = document.querySelector('.modal');
 let privacy = document.querySelector('#privacy');
 let closeBtn = document.querySelector('.closeBtn');
 
-window.addEventListener('scroll', function(ev) {
-
-    var distanceToTop = privacy.getBoundingClientRect().top;
- 
-    console.log(distanceToTop);
- });
 
 hamMenu.addEventListener('click', function(){
     navLinks.classList.toggle('open');

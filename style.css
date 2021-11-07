@@ -25,6 +25,7 @@ header{
     background-image: url('./img/pexels-ono-kosuki-5974053.jpg');
     background-position: center;
     background-size: cover;
+    padding-top:10rem;
 }
 
 .overlay{
@@ -43,6 +44,10 @@ nav{
     background: rgb(220,40,30);
     background: linear-gradient(90deg, rgba(220,40,30,1) 0%, rgba(240,0,0,0.8) 50%);
     margin-top:1rem;
+    position: fixed;
+    top:0;
+    right:0;
+    width:100%;
 }
 
 header .nav-links{
