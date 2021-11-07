@@ -334,10 +334,6 @@ textarea{
     left:0;
 }
 
-#privacy{
-    position: relative;
-}
-
 .modal-header{
     display: flex;
     justify-content: flex-end;
@@ -364,6 +360,26 @@ textarea{
     overflow: scroll;
     font-size: 0.5rem;
 }
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-top{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.footer-bottom{
+    font-size: 0.8rem;
+    margin-bottom:1rem;
+}
+
 
 
 
