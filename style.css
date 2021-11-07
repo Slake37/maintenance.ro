@@ -63,7 +63,7 @@ header .nav-links{
     color:#fff;
     font-size: 2rem;
     position: absolute;
-    top: -600px;
+    top: -1000px;
     width:100%;
     height:100vh;
     transition: 0.5s ease all;
@@ -75,7 +75,7 @@ header .nav-links a{
 }
 
 .open{
-    top:0 !important;
+    top:-1rem !important;
 }
 
 .close{
